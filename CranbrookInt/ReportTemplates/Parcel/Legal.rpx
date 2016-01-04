@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12096" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="pageHeader" Height="30" BackColor="16777215" />
+    <Section Type="Detail" Name="detail" Height="315" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label2" Left="2520" Top="0" Width="540" Height="270" Caption="Plan:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox1" DataField="PLAN" Left="3060" Top="0" Width="1008" Height="287.9997" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox10" DataField="D_LOT" Left="5040" Top="0" Width="1008" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label3" Left="6120" Top="0" Width="540" Height="270" Caption="Lot:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox11" DataField="LOT" Left="6660" Top="0" Width="1260" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox12" DataField="BLOCK" Left="8730" Top="0" Width="1008" Height="287.9997" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label15" Left="4050" Top="0" Width="990" Height="270" Caption="Dist Lot:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label4" Left="90" Top="0" Width="1152" Height="270" Caption="Parcel ID:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox2" DataField="PARCELID" Left="1260" Top="0" Width="1152" Height="287.9997" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label10" Left="8010" Top="0" Width="648" Height="270" Caption="Block:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="209" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

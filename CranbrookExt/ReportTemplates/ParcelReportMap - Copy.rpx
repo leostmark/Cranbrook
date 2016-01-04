@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="11877.17" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail1" Height="7067" BackColor="16777215">
+      <Control Type="AR.Image" Name="MainMap" DataField="MapImage" Tag="ParcelMap" BorderLeftStyle="13" BorderTopStyle="13" BorderRightStyle="13" BorderBottomStyle="13" Left="0" Top="0" Width="11877.17" Height="7069.607" LineColor="0" LineWeight="0" HyperLink="" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

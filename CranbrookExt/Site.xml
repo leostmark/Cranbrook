@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DisplayName="CranbrookWebMap" ID="CranbrookWebMap" SignInEnabled="false" Version="4.2.1">
+  <Map FullExtent="550491.206191769,5466975.37058797,626294.482798322,5514865.04970066" InitialExtent="550491.206191769,5466975.37058797,626294.482798322,5514865.04970066">
+    <LayerList>
+      <Items>
+        <Item ID="88" IsExpanded="false" Name="Dynamic Layers" Visible="true">
+          <Items>
+            <Item ID="89" />
+            <Item ID="90" />
+            <Item ID="91" />
+            <Item ID="92" />
+            <Item ID="93" IsExpanded="false" Name="Services" Visible="true">
+              <Items>
+                <Item ID="94" />
+                <Item ID="95" />
+                <Item ID="96" />
+                <Item ID="97" />
+                <Item ID="98" />
+                <Item ID="99" />
+              </Items>
+            </Item>
+            <Item ID="100" />
+            <Item ID="101" />
+          </Items>
+        </Item>
+        <Item ID="174" IsExpanded="false" Name="Static Layers" Visible="true">
+          <Items>
+            <Item ID="175" />
+            <Item ID="176" />
+            <Item ID="177" />
+            <Item ID="178" />
+            <Item ID="179" IsExpanded="false" Name="Landbase" Visible="true">
+              <Items>
+                <Item ID="180" IsExpanded="false" Name="Hydrography" Visible="true">
+                  <Items>
+                    <Item ID="181" />
+                    <Item ID="182" />
+                  </Items>
+                </Item>
+              </Items>
+            </Item>
+            <Item ID="183" />
+            <Item ID="184" />
+            <Item ID="185" />
+            <Item ID="186" />
+            <Item ID="187" />
+          </Items>
+        </Item>
+        <Item ID="188" />
+      </Items>
+    </LayerList>
+    <MapServices>
+      <MapService ConnectionString="url=http://map.cranbrook.ca/arcgis/rest/services/Mainmap_Dynamic/MapServer" DefaultAllowSymbolization="true" DisplayName="Dynamic Layers" Function="Operational" ID="7" ImpersonateWithActor="false" IncludeInLayerList="true" InstantSearch="true" IsExpanded="true" Opacity="1" OverrideTemporalSettings="false" PasswordEncrypted="false" ProviderInvariantName="Geocortex.Gis.Services.ArcGisServer.Rest" SearchNonTextFields="true" SupportedImageHeight="0" SupportedImageWidth="0" UseHttpAuthentication="false" Visible="true">
+        <CachedServiceData />
+        <Layers>
+          <Layer CanCopyFeature="true" DisplayName="MajorRoads" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="89" Name="MajorRoads" NativeID="0" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="Address (2500)" FeatureLabel="Address: {FULL_ADDRE}" FeatureZoomScale="1158" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="90" Name="Address (2500)" NativeID="1" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="false" UnconfiguredFieldsCanSymbolizeUniqueValue="false" UnconfiguredFieldsSearchable="false" UnconfiguredFieldsVisible="false" UnconfiguredRelationshipsVisible="true" Visible="true">
+            <Fields>
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="FULL_ADDRE" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="STREET_NAM" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="STREET_TYP" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="UNIT_NUMBE" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="CIVIC_NUMB" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="Map_LABEL" Searchable="false" Visible="true" />
+            </Fields>
+          </Layer>
+          <Layer CanCopyFeature="true" DisplayName="City Roads (200000)" FeatureLabel="City road: {ASSET_NAME}" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="91" Name="City Roads (200000)" NativeID="2" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="false" UnconfiguredFieldsCanSymbolizeUniqueValue="false" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="false" UnconfiguredRelationshipsVisible="true" Visible="true">
+            <FeatureHyperlinks>
+              <FeatureHyperlink EncodeUriReplacementValues="Automatic" Target="_blank" Text=" Display photo of {ASSET_NAME} from {FROM_}  " Uri="http://map.cranbrook.ca/roadphotos/{FROM_PIC}" />
+              <FeatureHyperlink EncodeUriReplacementValues="Automatic" Target="_blank" Text="Display photo of {ASSET_NAME} from {TO_}" Uri="http://map.cranbrook.ca/roadphotos/{TO_PIC}" />
+            </FeatureHyperlinks>
+            <Fields>
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="ASSET_ID" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="ASSET_NAME" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="FROM_" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="TO_" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="ATTRIB_CLA" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="ATTRIB_SPE" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="ATTRIB_TRA" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="SURR_SHOUL" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="SURR_DRAIN" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="GEOM_SURFC" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="OWNERSHIP" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="FROM_PIC" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="TO_PIC" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="Shape_Length" Searchable="true" Visible="true" />
+            </Fields>
+          </Layer>
+          <Layer CanCopyFeature="true" DisplayName="DigitalRoadAtlas" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="92" Name="DigitalRoadAtlas" NativeID="3" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+          <GroupLayer DisplayName="Services" IncludeInLayerList="true" IsCatalogLayer="false" IsExpanded="false" Name="Services" NativeID="4" Visible="true">
+            <SubLayers>
+              <Layer CanCopyFeature="true" DisplayName="Bus Route (25000)" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="94" Name="Bus Route (25000)" NativeID="5" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+              <Layer CanCopyFeature="true" DisplayName="Bus Stop (25000)" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="95" Name="Bus Stop (25000)" NativeID="6" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+              <Layer CanCopyFeature="true" DisplayName="Bus shelter/bench (25000)" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="96" Name="Bus shelter/bench (25000)" NativeID="7" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+              <Layer CanCopyFeature="true" DisplayName="Garbage Routes" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="97" Name="Garbage Routes" NativeID="8" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+              <Layer CanCopyFeature="true" DisplayName="GarbageZones" FeatureLabel="Garbage zone {Zone_No}" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="98" Name="GarbageZones" NativeID="9" Queryable="true" Searchable="false" ShowFeatureHyperlinks="DisableBrokenLinks" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="false" UnconfiguredFieldsCanSymbolizeUniqueValue="false" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="false" UnconfiguredRelationshipsVisible="true" Visible="false">
+                <FeatureHyperlinks>
+                  <FeatureHyperlink EncodeUriReplacementValues="Automatic" Target="_blank" Text="Zone {Zone_No}'s pickup schedule" ToolTip="Click the view the pickup calendar for this zone." Uri="http://docs.cranbrook.ca/downloads/pubworks/Zone-{Zone_No}.pdf" />
+                </FeatureHyperlinks>
+                <Fields>
+                  <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="Zone_No" Searchable="true" Visible="true" />
+                </Fields>
+                <LayerHyperlinks>
+                  <LayerHyperlink EncodeUriReplacementValues="Automatic" Target="_blank" Text="Solid waste pickup information" ToolTip="View information on the city's website about solid waste pickup." Uri="http://cranbrook.ca/our-city/city-departments/public-works/solid-waste-pickup" />
+                </LayerHyperlinks>
+              </Layer>
+              <Layer CanCopyFeature="true" DisplayName="Snow Plow Route" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="99" Name="Snow Plow Route" NativeID="10" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+            </SubLayers>
+          </GroupLayer>
+          <Layer CanCopyFeature="true" DisplayName="Parcel (1:10000)" FeatureDescription="&lt;p&gt;Address: {FULL_ADDRE}&lt;/p&gt;&lt;p&gt;Zone: {Zone}&lt;/p&gt;" FeatureLabel="Parcel: {PID}" FeatureZoomFactor="2" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="100" Name="Parcel (1:10000)" NativeID="12" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="false" UnconfiguredFieldsCanSymbolizeUniqueValue="false" UnconfiguredFieldsSearchable="false" UnconfiguredFieldsVisible="false" UnconfiguredRelationshipsVisible="true" Visible="true">
+            <Fields>
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Parcel ID" FocusField="false" Name="PID" Searchable="true" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Lot" FocusField="false" Name="LTSA_LOT" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Block" FocusField="false" Name="LTSA_BLOCK" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Plan" FocusField="false" Name="LTSA_PLAN" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Parcel number" FocusField="false" Name="LTSA_PARCE" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Address" FocusField="false" Name="FULL_ADDRE" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="Zone" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" FocusField="false" Name="zone_desc" Searchable="false" Visible="true" />
+              <Field CanSymbolizeClassBreaks="false" CanSymbolizeUniqueValue="false" DisplayName="Roll number" FocusField="false" Name="Roll_no" Searchable="false" Visible="true" />
+            </Fields>
+          </Layer>
+          <Layer CanCopyFeature="true" DisplayName="Zoning (Outline 1:25000)" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="true" LayerListID="101" Name="Zoning (Outline 1:25000)" NativeID="11" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="false" />
+        </Layers>
+      </MapService>
+      <MapService ConnectionString="url=http://map.cranbrook.ca/arcgis/rest/services/Mainmap_Static/MapServer" DefaultAllowSymbolization="true" DisplayName="Static Layers" Function="Operational" ID="8" ImpersonateWithActor="false" IncludeInLayerList="true" InstantSearch="true" IsExpanded="true" Opacity="1" OverrideTemporalSettings="false" PasswordEncrypted="false" ProviderInvariantName="Geocortex.Gis.Services.ArcGisServer.Rest" SearchNonTextFields="true" SupportedImageHeight="0" SupportedImageWidth="0" UseHttpAuthentication="false" Visible="true">
+        <CachedServiceData />
+        <Layers>
+          <Layer CanCopyFeature="true" DisplayName="City2mil" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="175" Name="City2mil" NativeID="0" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="Airport" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="176" Name="Airport" NativeID="1" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="PointsofInterest" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="177" Name="PointsofInterest" NativeID="2" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="Highway" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="178" Name="Highway" NativeID="8" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <GroupLayer DisplayName="Landbase" IncludeInLayerList="true" IsCatalogLayer="false" IsExpanded="true" Name="Landbase" NativeID="9" Visible="true">
+            <SubLayers>
+              <Layer CanCopyFeature="true" DisplayName="NorthStar Rails 2 Trails" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="NorthStar Rails 2 Trails" NativeID="10" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+              <Layer CanCopyFeature="true" DisplayName="School" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="School" NativeID="11" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+              <Layer CanCopyFeature="true" DisplayName="Rotary Way Bike/Walk Path" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Rotary Way Bike/Walk Path" NativeID="12" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+              <Layer CanCopyFeature="true" DisplayName="SchoolBuilding" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="SchoolBuilding" NativeID="13" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+              <GroupLayer DisplayName="Hydrography" IncludeInLayerList="true" IsCatalogLayer="false" IsExpanded="false" Name="Hydrography" NativeID="14" Visible="true">
+                <SubLayers>
+                  <Layer CanCopyFeature="true" DisplayName="Creek" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="181" Name="Creek" NativeID="16" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+                  <Layer CanCopyFeature="true" DisplayName="Lake" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="182" Name="Lake" NativeID="15" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+                </SubLayers>
+              </GroupLayer>
+              <Layer CanCopyFeature="true" DisplayName="Park" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Park" NativeID="17" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+              <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="CommunityForest" NativeID="18" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" />
+            </SubLayers>
+          </GroupLayer>
+          <Layer CanCopyFeature="true" DisplayName="CityBoundary" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="183" Name="CityBoundary" NativeID="3" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="Playground" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="184" Name="Playground" NativeID="4" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="Public Washroom" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="185" Name="Public Washroom" NativeID="5" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="CommunityForest-MainAccessRoad" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="186" Name="CommunityForest-MainAccessRoad" NativeID="6" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" DisplayName="CommunityForestTrails" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="187" Name="CommunityForestTrails" NativeID="7" Queryable="true" Searchable="true" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+        </Layers>
+      </MapService>
+      <MapService ConnectionString="url=http://map.cranbrook.ca/arcgis/rest/services/Imagery2010/ImageServer" DefaultAllowSymbolization="true" DisableClientCaching="false" DisplayName="Imagery2010" FailureAction="Warn" Function="Base" ID="6" ImpersonateWithActor="false" IncludeInLayerList="true" InstantSearch="false" IsExpanded="false" LayerListID="188" Opacity="1" OverrideTemporalSettings="false" PasswordEncrypted="false" ProviderInvariantName="Geocortex.Gis.Services.ArcGisServer.Rest" SearchNonTextFields="true" SupportedImageHeight="0" SupportedImageWidth="0" UseHttpAuthentication="false" Visible="false">
+        <CachedServiceData />
+      </MapService>
+    </MapServices>
+  </Map>
+  <NamedExtents>
+    <NamedExtent DisplayName="Downtown" Extent="589017.107454592,5484348.59063587,590625.777338598,5485703.26001188" ID="0" />
+    <NamedExtent DisplayName="Airport" Extent="584205.914498872,5493090.44145291,590640.594034898,5498509.11895693" ID="1" />
+    <NamedExtent DisplayName="Slaterville" Extent="588049.788853288,5485100.00880537,589658.458737294,5486454.67818138" ID="2" />
+  </NamedExtents>
+  <NorthArrow CharacterIndex="176" ForeColor="#FF000000" />
+  <OverviewMap InitialExtent="579375.577646466,5478821.28664963,607208.102347048,5501339.72548853">
+    <MapServices>
+      <MapService ConnectionString="url=http://map.cranbrook.ca/arcgis/rest/services/Overview/MapServer" DefaultAllowSymbolization="true" DisplayName="Overview" Function="Operational" ID="0" ImpersonateWithActor="false" IncludeInLayerList="true" InstantSearch="false" IsExpanded="true" Opacity="1" OverrideTemporalSettings="false" PasswordEncrypted="false" ProviderInvariantName="Geocortex.Gis.Services.ArcGisServer.Rest" SearchNonTextFields="true" SupportedImageHeight="0" SupportedImageWidth="0" UseHttpAuthentication="false" Visible="true">
+        <CachedServiceData />
+        <Layers>
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Airport" NativeID="0" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="CityBoundary" NativeID="1" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Highway" NativeID="2" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="cityroads" NativeID="3" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="GolfCourse" NativeID="4" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Park" NativeID="5" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" Name="Lake" NativeID="6" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+        </Layers>
+      </MapService>
+    </MapServices>
+  </OverviewMap>
+  <PrintTemplates>
+    <PrintTemplate DefaultOutputFormat="Pdf" Description="8.5 x 11 inches" DisplayName="Cranbrook Map" ID="0" IsDefault="false" MaximumResolution="300" ScaleBarUnit="Meters" TemplateUri="{SiteUri}/PrintTemplates/PrintMap.rpx" Visible="true">
+      <SupportedOutputFormats>
+        <Pdf />
+        <Jpeg />
+      </SupportedOutputFormats>
+      <SupportedResolutions>
+        <Resolution DisplayName="Low" Dpi="90" />
+        <Resolution DisplayName="Medium" Dpi="200" />
+        <Resolution DisplayName="High" Dpi="350" />
+      </SupportedResolutions>
+      <TextFields>
+        <TextField DataFieldName="_Title" DisplayName="Title" Editable="true" MultiLine="false" />
+        <TextField DataFieldName="_Notes" DisplayName="Enter map description" Editable="true" MultiLine="true" />
+      </TextFields>
+    </PrintTemplate>
+  </PrintTemplates>
+  <PrintTemplatesPermissions />
+  <Viewers>
+    <Viewer DisplayName="CranbrookViewer" Hidden="false" ID="CranbrookViewer" Path="{SitePath}\Viewers\CranbrookViewer" TemplateID="Html5Viewer_2_3" />
+  </Viewers>
+  <Workflows>
+    <Workflow DisplayName="ParcelIDSearch" ID="ParcelIDSearch" Uri="{SiteUri}/Workflows/CBParcelQuery.xaml" />
+    <Workflow DisplayName="LegalSearch" ID="LegalSearch" Uri="{SiteUri}/Workflows/CBSearchLegal.xaml" />
+    <Workflow DisplayName="AddressSearch" ID="AddressSearch" Uri="{SiteUri}/Workflows/CBSearchAddress.xaml" />
+    <Workflow DisplayName="Property Report External" ID="PropertyReportExt" Uri="{SiteUri}/Workflows/CBPropertyRptExt.xaml" />
+  </Workflows>
+  <WorkflowsPermissions />
+</Site>

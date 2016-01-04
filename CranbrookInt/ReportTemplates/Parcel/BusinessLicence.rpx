@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12096" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="detail" Height="2550" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox91" DataField="BUS_DESCRIPTION" Left="1440" Top="1440" Width="1530" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox89" DataField="BUS_CATEGORY" Left="1260" Top="1800" Width="1872" Height="287.9997" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox95" DataField="BUS_CAT_DETAIL" Left="5580" Top="1800" Width="2790" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label41" Left="0" Top="1080" Width="1350" Height="270" Caption="Trade Name:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox90" DataField="BUS_TRADE_NAME" Left="1440" Top="1080" Width="1710" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox94" DataField="BUS_RESTRICT" Left="1530" Top="2160" Width="2430" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label44" Left="0" Top="2160" Width="1440" Height="270" Caption="Restrictions:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label45" Left="4770" Top="1800" Width="720" Height="270" Caption="Detail:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox92" DataField="BUS_LICENCE_NO" Left="1440" Top="360" Width="1620" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label40" Left="0" Top="1440" Width="1260" Height="270" Caption="Description:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label38" Left="0" Top="0" Width="2070" Height="270" Caption="Business Licence(s):" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label42" Left="0" Top="720" Width="1080" Height="270" Caption="Licencee:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label43" Left="0" Top="1800" Width="1170" Height="270" Caption="Category:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox93" DataField="BUS_LICENCEE" Left="1170" Top="720" Width="1872" Height="287.9997" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label39" Left="0" Top="360" Width="1350" Height="270" Caption="Licence No:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

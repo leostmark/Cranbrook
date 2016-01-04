@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9450" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="ReportHeader" Name="ReportHeader1" Height="9239" BackColor="16777215">
+      <Control Type="AR.Subreport" Name="MapSubReport" Left="0" Top="0" Width="9360" Height="7488" ReportName="MapSubReport" />
+    </Section>
+    <Section Type="PageHeader" Name="pageHeader" Height="1541" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line2" X1="60" Y1="720" X2="9240" Y2="720" />
+      <Control Type="AR.Label" Name="Label1" Left="60" Top="0" Width="3870" Height="540" Caption="Parcel details" Style="ddo-char-set: 0; font-size: 15.75pt; font-family: Tahoma; " />
+    </Section>
+    <Section Type="Detail" Name="detail" Height="3435" BackColor="16777215">
+      <Control Type="AR.Subreport" Name="AddressSubReport" Left="90" Top="180" Width="9270" Height="900" ReportName="subReport1" />
+      <Control Type="AR.Subreport" Name="LegalSubReport" Left="90" Top="1260" Width="9270" Height="900" ReportName="subReport2" />
+      <Control Type="AR.Subreport" Name="OwnerSubReport" Left="90" Top="2340" Width="9270" Height="900" ReportName="subReport3" />
+    </Section>
+    <Section Type="PageFooter" Name="pageFooter" Height="360" BackColor="16777215">
+      <Control Type="AR.Line" Name="Line1" X1="144" Y1="0" X2="9216" Y2="0" />
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="7776" Top="0" Width="1440" Height="285" FormatString="{RunDateTime:dd-MMM-yyyy}" Style="ddo-char-set: 0; text-align: right; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.ReportInfo" Name="ReportInfo2" Left="144" Top="0" Width="1440" Height="285" FormatString="Page {PageNumber} of {PageCount}" Style="ddo-char-set: 0; font-size: 9.75pt; font-family: Tahoma; " />
+    </Section>
+    <Section Type="ReportFooter" Name="ReportFooter1" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

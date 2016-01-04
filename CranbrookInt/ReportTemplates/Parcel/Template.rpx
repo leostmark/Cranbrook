@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12096" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="detail" Height="315" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="MailingAddressCalc" Formula="(HOUSENO.ToString().Trim() != &quot;&quot; ? HOUSENO + &quot; &quot; : &quot;&quot;) + (STDIR.ToString().Trim() != &quot;&quot; ? STDIR + &quot; &quot; : &quot;&quot;) + (STNAME.ToString().Trim() != &quot;&quot; ? STNAME + &quot; &quot; : &quot;&quot;) + (STTYPE.ToString().Trim() != &quot;&quot; ? STTYPE : &quot;&quot;)" FieldType="String" />
+  </CalculatedFields>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

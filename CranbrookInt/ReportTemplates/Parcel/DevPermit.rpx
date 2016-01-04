@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12096" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="detail" Height="870" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox72" DataField="TUP_NO" Left="4140" Top="360" Width="720" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox78" DataField="RWPL5" Left="4140" Top="360" Width="720" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox77" DataField="RWPL4" Left="3420" Top="360" Width="630" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox76" DataField="RWPL6" Left="4950" Top="360" Width="720" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label27" Left="1170" Top="0" Width="2520" Height="270" Caption="Development Permit(s):" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox68" DataField="MDP_NO" Left="1890" Top="360" Width="630" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox70" DataField="NDP_NO" Left="4950" Top="360" Width="720" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox67" DataField="DVP_NO" Left="2610" Top="360" Width="720" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox69" DataField="VDP_NO" Left="1170" Top="360" Width="630" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox71" DataField="DPS_NO" Left="3420" Top="360" Width="630" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox74" DataField="RWPL2" Left="1890" Top="360" Width="630" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox75" DataField="RWPL1" Left="1170" Top="360" Width="630" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox73" DataField="RWPL3" Left="2610" Top="360" Width="720" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="MailingAddressCalc" Formula="(HOUSENO.ToString().Trim() != &quot;&quot; ? HOUSENO + &quot; &quot; : &quot;&quot;) + (STDIR.ToString().Trim() != &quot;&quot; ? STDIR + &quot; &quot; : &quot;&quot;) + (STNAME.ToString().Trim() != &quot;&quot; ? STNAME + &quot; &quot; : &quot;&quot;) + (STTYPE.ToString().Trim() != &quot;&quot; ? STTYPE : &quot;&quot;)" FieldType="String" />
+  </CalculatedFields>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>

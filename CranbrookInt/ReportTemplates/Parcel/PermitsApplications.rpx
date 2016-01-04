@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="12096" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="detail" Height="4950" BackColor="16777215">
+      <Control Type="AR.Label" Name="Label61" Left="0" Top="1440" Width="630" Height="270" Caption="Type:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox103" DataField="FOLDER_NO" Left="0" Top="720" Width="1170" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox107" DataField="FOLDER_VALUE" Left="5760" Top="720" Width="1170" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label65" Left="0" Top="2880" Width="810" Height="270" Caption="Issued:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label64" Left="0" Top="2520" Width="1080" Height="270" Caption="Approved:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox119" DataField="FOLDER_TYPE" Left="1440" Top="720" Width="1170" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox120" DataField="FOLDER_NO" Left="0" Top="720" Width="1170" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label59" Left="5760" Top="360" Width="1080" Height="270" Caption="Value" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label54" Left="0" Top="0" Width="2700" Height="270" Caption="Permits and Applications:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox104" DataField="FOLDER_TYPE" Left="1440" Top="720" Width="1170" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label72" Left="0" Top="360" Width="1080" Height="270" Caption="Number" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox113" DataField="ISSUED_DT" Left="900" Top="2880" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox112" DataField="APPROVED_DT" Left="1170" Top="2520" Width="1350" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label55" Left="0" Top="360" Width="1080" Height="270" Caption="Number" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox106" DataField="ISSUED_DT" Left="4320" Top="720" Width="1170" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox114" DataField="COMPLETED_DT" Left="1350" Top="3240" Width="1350" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox117" DataField="PURPOSE" Left="1170" Top="4320" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label60" Left="0" Top="1080" Width="810" Height="270" Caption="Folder:" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label71" Left="1440" Top="360" Width="1080" Height="270" Caption="Type" Style="text-decoration: none; ddo-char-set: 1; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox109" DataField="FOLDER_TYPE" Left="720" Top="1440" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox115" DataField="SUBJECT" Left="1080" Top="3600" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox116" DataField="FOLDER_VALUE" Left="900" Top="3960" Width="1620" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label69" Left="0" Top="4320" Width="1080" Height="270" Caption="Purpose:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label58" Left="4320" Top="360" Width="1080" Height="270" Caption="Issued" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label66" Left="0" Top="3240" Width="1260" Height="270" Caption="Completed:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label63" Left="0" Top="2160" Width="990" Height="270" Caption="Created:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label68" Left="0" Top="3960" Width="810" Height="270" Caption="Value:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox118" DataField="RPT_CODE" Left="720" Top="4680" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label57" Left="2880" Top="360" Width="1080" Height="270" Caption="Status" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox105" DataField="FOLDER_STATUS" Left="2880" Top="720" Width="1170" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label67" Left="0" Top="3600" Width="990" Height="270" Caption="Subject:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label62" Left="0" Top="1800" Width="810" Height="270" Caption="Status:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox108" DataField="FOLDER_NO" Left="900" Top="1080" Width="1260" Height="270" Text="" Style="text-decoration: none; ddo-char-set: 1; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox111" DataField="CREATED_DT" Left="1080" Top="2160" Width="1440" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label56" Left="1440" Top="360" Width="1080" Height="270" Caption="Type" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Label" Name="Label70" Left="0" Top="4680" Width="630" Height="270" Caption="Code:" Style="ddo-char-set: 1; text-decoration: none; text-align: left; font-weight: bold; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+      <Control Type="AR.Field" Name="TextBox110" DataField="FOLDER_STATUS" Left="900" Top="1800" Width="1530" Height="270" Text="" Style="ddo-char-set: 1; text-decoration: none; text-align: left; background-color: window; font-size: 9.75pt; font-family: Tahoma; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <CalculatedFields>
+    <Field Name="MailingAddressCalc" Formula="(HOUSENO.ToString().Trim() != &quot;&quot; ? HOUSENO + &quot; &quot; : &quot;&quot;) + (STDIR.ToString().Trim() != &quot;&quot; ? STDIR + &quot; &quot; : &quot;&quot;) + (STNAME.ToString().Trim() != &quot;&quot; ? STNAME + &quot; &quot; : &quot;&quot;) + (STTYPE.ToString().Trim() != &quot;&quot; ? STTYPE : &quot;&quot;)" FieldType="String" />
+  </CalculatedFields>
+  <PageSettings LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" />
+  <Parameters />
+</ActiveReportsLayout>
